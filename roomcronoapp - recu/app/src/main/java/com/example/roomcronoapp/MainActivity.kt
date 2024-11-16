@@ -9,7 +9,6 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.example.roomcronoapp.navigation.NavManager
 import com.example.roomcronoapp.ui.theme.RoomcronoappTheme
-import com.example.roomcronoapp.viewModels.CronometroViewModel
 import com.example.roomcronoapp.views.navController
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -29,6 +28,10 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+    }
+
+    private fun CronometroViewModel() {
+
     }
 }
 

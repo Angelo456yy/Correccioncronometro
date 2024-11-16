@@ -62,7 +62,7 @@ fun CenterAlignedTopAppBar(
 @Composable
 fun AddView(
     navController: NavController,
-    cronometroVM: CronometroViewModel,
+    cronometroVM: Unit,
     cronosVM: CronosViewModel
 ){
     Scaffold(
@@ -81,8 +81,14 @@ fun AddView(
             )
         }
     ) {
+        it ->
         ContentAddView(it, navController, cronometroVM, cronosVM)
+
     }
+}
+
+        fun ContentAddView(it: PaddingValues, navController: NavController, cronometroVM: Unit, cronosVM: CronosViewModel) {
+
 }
 
 //agregamos como parametro el CronometroVM

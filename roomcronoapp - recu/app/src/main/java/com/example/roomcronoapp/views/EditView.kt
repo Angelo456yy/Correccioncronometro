@@ -38,7 +38,7 @@ import com.example.roomcronoapp.viewModels.CronometroViewModel
 @Composable
 fun EditView(
     navController: NavController,
-    cronometroVM: CronometroViewModel,
+    cronometroVM: Unit,
     cronosVM: Nothing?,
     id: Long
 ) {
