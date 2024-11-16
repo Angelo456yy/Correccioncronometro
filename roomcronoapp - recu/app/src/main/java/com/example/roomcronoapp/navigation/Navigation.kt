@@ -33,6 +33,10 @@ fun NavManager(cronometroVM: Unit, navController: NavController){
     }
 }
 
+fun EditView(navController: NavController, cronometroVM: Unit, cronVM: Nothing?, id: Long) {
+    TODO("Not yet implemented")
+}
+
 fun NavHost(
     navController: NavController,
     startDestination: String,

@@ -56,6 +56,10 @@ fun HomeView(cronosVM: NavController, cronosVM1: Any?){
     }
 }
 
+fun ContentHomeView(it: PaddingValues, navController: NavController, cronosVM: NavController) {
+    TODO("Not yet implemented")
+}
+
 fun ContentHomeView(it: PaddingValues, navController: NavController, cronosVM: NavHostController) {
         TODO("Not yet implemented")
 }
