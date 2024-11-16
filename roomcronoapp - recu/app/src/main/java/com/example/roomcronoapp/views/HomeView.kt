@@ -56,17 +56,13 @@ fun HomeView(cronosVM: NavController, cronosVM1: Any?){
     }
 }
 
+private fun NavController.Companion.navigate(cronosVM: String) = Unit
+
 fun ContentHomeView(it: PaddingValues, navController: NavController, cronosVM: NavController) {
     TODO("Not yet implemented")
 }
 
-fun ContentHomeView(it: PaddingValues, navController: NavController, cronosVM: NavHostController) {
-        TODO("Not yet implemented")
-}
 
-private fun Any.navigate(s: String) {
-
-}
 
 //agregamos el cronosVM como parametro a la funcion
 @Composable
