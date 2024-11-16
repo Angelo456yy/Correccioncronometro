@@ -34,7 +34,7 @@ val navController: NavController = TODO()
 //agregar el cronosVM para enviarlo al contentHomeView
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun HomeView(cronosVM: NavHostController, cronosVM1: Any?){
+fun HomeView(cronosVM: NavController, cronosVM1: Any?){
     Scaffold(
         topBar = {
             //clase de material que crea una barra en la parte superior

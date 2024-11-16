@@ -2,6 +2,7 @@ package com.example.roomcronoapp.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavController
+import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -32,4 +33,12 @@ fun NavManager(cronometroVM: CronometroViewModel, navController: NavController){
             EditView(navController, cronometroVM, cronosVM ,id)
         }
     }
+}
+
+fun NavHost(
+    navController: NavController,
+    startDestination: String,
+    builder: NavGraphBuilder.() -> Unit
+) {
+    TODO("Not yet implemented")
 }
