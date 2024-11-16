@@ -1,7 +1,7 @@
 package com.example.roomcronoapp.navigation
 
 import androidx.compose.runtime.Composable
-import androidx.navigation.NavHostController
+import androidx.navigation.NavController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -15,7 +15,7 @@ import com.example.roomcronoapp.views.HomeView
 val cronosVM: CronosViewModel = TODO()
 
 @Composable
-fun NavManager(cronometroVM: CronometroViewModel, navController: NavHostController){
+fun NavManager(cronometroVM: CronometroViewModel, navController: NavController){
 
     NavHost(navController = navController, startDestination = "Home"){
         composable("Home"){

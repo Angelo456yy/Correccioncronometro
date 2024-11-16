@@ -19,6 +19,7 @@ import javax.inject.Inject
 //inyectamos un repository para interactuar con la base de datos
 @HiltViewModel
 class CronometroViewModel @Inject constructor(private val repository: CronosRepository) : ViewModel() {
+    constructor() : this( CronosRepository() )
 
     var state by mutableStateOf(CronoState())
         private set
